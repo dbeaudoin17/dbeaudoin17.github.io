@@ -117,7 +117,21 @@
                                 still influence the systemic racism in this country. It’s important
                                 to recognize that not much has changed in that
                         regard.</emph></q></p>
-                    <p>Tanima</p>
+                    <p>Tanima Shrivastava is a UNL undergrad with the College of Arts and Science 
+                        with Computer Science and English majors and a minor in Mathematics. For the 
+                        <title>“Hell in Nebraska”</title> project, she was responsible for dividing 
+                        the transcription tasks for the group, transcribing and coding for Chapters 32-40, 
+                        documenting steps for standardizing standoff elements, writing CSS and personal bio 
+                        and creating XSLT elements such as figure, figDesc, note, list, references of 
+                        persons and places and their child elements such as occupation, region, name, note etc. 
+                            <q><emph>I have interest interdisciplinary studies, as a consequence of which 
+                                my concentration of English major is in Digital Humanities. I am currently a 
+                                web developer and Research Assistant for The George Eliot Archive, which is a 
+                                digital humanities research at UNL. This project is exciting to work with, as 
+                                it not only presented a technical design challenge, it also creates awareness 
+                                about the state of prisoners in Nebraska. It is surprising how despite documents 
+                                such as these, reforms have still not been implemented in such institutions to 
+                                better the recreation of the outcasts of the society. </emph></q></p>
                     <p>Łukasz Niparko is a UNL graduate student in the Department of Political
                         Science, specializing in civil society and human rights. For the
                             <title>“Hell in Nebraska”</title> project, Łukasz was responsible for
@@ -134,7 +148,7 @@
                 </body>
             </floatingText>
             <figure>
-                <graphic url="Cover.png"/>
+                <graphic url="Cover.PNG"/>
                 <p>Cover</p>
                 <figDesc> Illustrated Cover for Hell in Nebraska.</figDesc>
             </figure>
@@ -323,7 +337,7 @@
 
             <div type="chapter" n="0">
                 <figure>
-                    <graphic url="Preface_Cartoon.png"/>
+                    <graphic url="Preface_Cartoon.PNG"/>
                     <p>Preface Cartoon</p>
                     <figDesc>Cartoon illustration above the preface.</figDesc>
                 </figure>
@@ -373,7 +387,7 @@
             </div>
 
             <figure>
-                <graphic url="Penitentiary.png"/>
+                <graphic url="Penitentiary.PNG"/>
                 <p>Penitentiary</p>
                 <figDesc>"Nebraska State Penitentiary."</figDesc>
             </figure>
@@ -483,7 +497,7 @@
                     left to right, second row, sitting down, are: first, <ref target="#fenton"
                         >William J. Fenton</ref>, turnkey; second, Mr. <ref target="#buchholz">Gus
                         Buchholz</ref>, farm superintendent. <figure>
-                        <graphic url="#Staff.png"/>
+                        <graphic url="Staff.PNG"/>
                         <p>Prison Staff</p>
                         <figDesc>"Warden Fenton And His Men."</figDesc>
                     </figure> My friend <ref target="#buchholz">Gus</ref> is a thorough farm manager
