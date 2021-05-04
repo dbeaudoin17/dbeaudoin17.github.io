@@ -12,9 +12,6 @@
     <xsl:template match="/">
         <!-- NOTICE THE SLASH THERE. In XPath this means root node (which in a TEI XML file is <TEI>). -->
         <html>
-            <a href="combined%20file.xml"/>
-            <a href="hellinnebraska.xsl"/>
-            <a href="hellinnebraska.css"/>
             <head>
                 <link rel="stylesheet" type="text/css" href="hellinnebraska.css"/>
             </head>
