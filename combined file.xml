@@ -134,7 +134,7 @@
                 </body>
             </floatingText>
             <figure>
-                <graphic url="Cover.png"/>
+                <graphic url="Cover.PNG"/>
                 <p>Cover</p>
                 <figDesc> Illustrated Cover for Hell in Nebraska.</figDesc>
             </figure>
@@ -323,7 +323,7 @@
 
             <div type="chapter" n="0">
                 <figure>
-                    <graphic url="Preface_Cartoon.png"/>
+                    <graphic url="Preface_Cartoon.PNG"/>
                     <p>Preface Cartoon</p>
                     <figDesc>Cartoon illustration above the preface.</figDesc>
                 </figure>
@@ -373,7 +373,7 @@
             </div>
 
             <figure>
-                <graphic url="Penitentiary.png"/>
+                <graphic url="Penitentiary.PNG"/>
                 <p>Penitentiary</p>
                 <figDesc>"Nebraska State Penitentiary."</figDesc>
             </figure>
