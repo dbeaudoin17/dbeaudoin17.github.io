@@ -12,6 +12,9 @@
     <xsl:template match="/">
         <!-- NOTICE THE SLASH THERE. In XPath this means root node (which in a TEI XML file is <TEI>). -->
         <html>
+            <a href="combined%20file.xml"/>
+            <a href="hellinnebraska.xsl"/>
+            <a href="hellinnebraska.css"/>
             <head>
                 <link rel="stylesheet" type="text/css" href="hellinnebraska.css"/>
             </head>
@@ -83,11 +86,15 @@
     </xsl:template>
 
     <xsl:template match="tei:said">
-        <q><xsl:apply-templates/></q>
-        </xsl:template>
+        <q>
+            <xsl:apply-templates/>
+        </q>
+    </xsl:template>
 
     <xsl:template match="tei:soCalled">
-        <q><xsl:apply-templates/></q>
+        <q>
+            <xsl:apply-templates/>
+        </q>
     </xsl:template>
 
     <xsl:template match="tei:graphic">
@@ -158,8 +165,8 @@
             <xsl:apply-templates/>
         </em>
     </xsl:template>
-    
-    
+
+
     <xsl:template match="tei:ref">
         <xsl:element name="a">
             <xsl:attribute name="href">
@@ -168,31 +175,43 @@
             <xsl:apply-templates/>
         </xsl:element>
     </xsl:template>
-    
+
     <xsl:template match="tei:person">
         <xsl:element name="a">
             <xsl:attribute name="id">
                 <xsl:value-of select="@xml:id"/>
             </xsl:attribute>
         </xsl:element>
-        <p><b>Name:</b> <xsl:apply-templates select="tei:persName"/></p>
-        <p><b>Occupation:</b> <xsl:apply-templates select="tei:occupation"/></p>
+        <p>
+            <b>Name:</b>
+            <xsl:apply-templates select="tei:persName"/>
+        </p>
+        <p>
+            <b>Occupation:</b>
+            <xsl:apply-templates select="tei:occupation"/>
+        </p>
         <p>*<xsl:apply-templates select="tei:note"/>*</p>
         <p> </p>
     </xsl:template>
-    
+
     <xsl:template match="tei:place">
         <xsl:element name="a">
             <xsl:attribute name="id">
                 <xsl:value-of select="@xml:id"/>
             </xsl:attribute>
         </xsl:element>
-        <p><b>Name: </b> <xsl:apply-templates select="tei:placeName"/></p>
-        <p><b><xsl:value-of select="tei:region/@type"/>: </b> <xsl:apply-templates select="tei:region"/></p>     
+        <p>
+            <b>Name: </b>
+            <xsl:apply-templates select="tei:placeName"/>
+        </p>
+        <p>
+            <b><xsl:value-of select="tei:region/@type"/>: </b>
+            <xsl:apply-templates select="tei:region"/>
+        </p>
         <p>*<xsl:apply-templates select="tei:note"/>*</p>
         <p> </p>
     </xsl:template>
-    
+
     <xsl:template match="tei:standoff">
         <h2>Notes for People and Places</h2>
         <xsl:apply-templates/>
